@@ -1,0 +1,17 @@
+// styling default html tags
+
+// text
+h1, h2, h3, h4{
+  font-family: $header;
+}
+
+body, p{
+  font-family: $body;
+  font-weight: $weight;
+}
+
+// page
+body{
+  max-width: $max-width;
+  margin: auto;
+}
