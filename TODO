@@ -1,9 +1,53 @@
 🌶🌶🌶 Important feature or super cool
+- [ ] colors*
+- [ ] button*
+- [ ] utility CSS classes
+- [ ] flex, built off box*
+- [ ] click out wrapper*
 
 🌶🌶 Good value add
-- [ ] loading spinners
+- [ ] text*
+- [ ] link*
+- [ ] dropdown/autocomplete w/ search, using react-select*
+- [ ] tables w/ useTable
+- [ ] ellipsis support
+- [ ] editable text
+- [ ] headers*
+- [ ] collapse sections*
+- [ ] modals
+- [ ] entity*
+- [ ] error*
+- [ ] popover
+- [ ] copy text in field
+- [ ] toast*
+- [ ] card*
 
-🌶 Nice to have, but either low impact or high effort
+🌶 Should have, but either low impact or high effort
+- [ ] loading spinners*
+- [ ] avatar
+- [ ] tooltip
+- [ ] badges
+- [ ] tags
+- [ ] form
+- [ ] menus
+  - [ ] side menu
+- [ ] input
+  - [ ] text*
+  - [ ] textarea*
+  - [ ] number* w/ distinct buttons
+  - [ ] checkbox
+  - [ ] radio
+  - [ ] date
+  - [ ] duration
+  - [ ] time
+- [ ] switch
+- [ ] selectable
+- [ ] keyboard input
+- [ ] skeleton
+- [ ] code snippet
+- [ ] tabs
 
 🧊 Not sure about
-- [ ] colors
+- [-] why we don't provide layouts/grids
+- [ ] theming
+  - [ ] with theme provider?

@@ -14,3 +14,7 @@ The project's site is a [Next.js](https://nextjs.org/) project bootstrapped with
 $ yarn install
 $ yarn dev
 ```
+
+## Thoughts
+
+- use sections, main, and p tags
