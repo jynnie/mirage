@@ -1,29 +1,32 @@
 🌶🌶🌶 Important feature or super cool
-- [ ] colors*
-- [ ] button*
+
+- [x] colors\*
+- [ ] button\*
 - [ ] utility CSS classes
-- [ ] flex, built off box*
-- [ ] click out wrapper*
+- [ ] flex, built off box\*
+- [ ] click out wrapper\*
 
 🌶🌶 Good value add
-- [ ] text*
-- [ ] link*
-- [ ] dropdown/autocomplete w/ search, using react-select*
+
+- [ ] text\*
+- [ ] link\*
+- [ ] dropdown/autocomplete w/ search, using react-select\*
 - [ ] tables w/ useTable
 - [ ] ellipsis support
 - [ ] editable text
-- [ ] headers*
-- [ ] collapse sections*
+- [ ] headers\*
+- [ ] collapse sections\*
 - [ ] modals
-- [ ] entity*
-- [ ] error*
+- [ ] entity\*
+- [ ] error\*
 - [ ] popover
 - [ ] copy text in field
-- [ ] toast*
-- [ ] card*
+- [ ] toast\*
+- [ ] card\*
 
 🌶 Should have, but either low impact or high effort
-- [ ] loading spinners*
+
+- [ ] loading spinners\*
 - [ ] avatar
 - [ ] tooltip
 - [ ] badges
@@ -32,9 +35,9 @@
 - [ ] menus
   - [ ] side menu
 - [ ] input
-  - [ ] text*
-  - [ ] textarea*
-  - [ ] number* w/ distinct buttons
+  - [ ] text\*
+  - [ ] textarea\*
+  - [ ] number\* w/ distinct buttons
   - [ ] checkbox
   - [ ] radio
   - [ ] date
@@ -48,6 +51,7 @@
 - [ ] tabs
 
 🧊 Not sure about
+
 - [-] why we don't provide layouts/grids
 - [ ] theming
   - [ ] with theme provider?
