@@ -15,6 +15,13 @@ $ yarn install
 $ yarn dev
 ```
 
+## Credits
+
+This project builds on top of other components. Notably,
+
+- [UI Box](https://github.com/segmentio/ui-box)
+- [React Select](https://react-select.com/)
+
 ## Thoughts
 
 - use sections, main, and p tags

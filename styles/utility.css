@@ -1,0 +1,479 @@
+@import "./config.css";
+
+/* Background */
+.u-bgd-gray0 {
+  background-color: var(--gray0);
+}
+.u-bgd-gray1 {
+  background-color: var(--gray1);
+}
+.u-bgd-gray2 {
+  background-color: var(--gray2);
+}
+.u-bgd-gray3 {
+  background-color: var(--gray3);
+}
+.u-bgd-gray4 {
+  background-color: var(--gray4);
+}
+.u-bgd-gray5 {
+  background-color: var(--gray5);
+}
+.u-bgd-gray6 {
+  background-color: var(--gray6);
+}
+.u-bgd-gray7 {
+  background-color: var(--gray7);
+}
+.u-bgd-gray8 {
+  background-color: var(--gray8);
+}
+.u-bgd-gray9 {
+  background-color: var(--gray9);
+}
+.u-bgd-gray-lighter {
+  background-color: var(--gray-lighter);
+}
+.u-bgd-gray-light {
+  background-color: var(--gray-light);
+}
+.u-bgd-gray {
+  background-color: var(--gray);
+}
+.u-bgd-gray-dark {
+  background-color: var(--gray-dark);
+}
+.u-bgd-gray-darker {
+  background-color: var(--gray-darker);
+}
+
+.u-bgd-red-lighter {
+  background-color: var(--red-lighter);
+}
+.u-bgd-red-light {
+  background-color: var(--red-light);
+}
+.u-bgd-red {
+  background-color: var(--red);
+}
+.u-bgd-red-dark {
+  background-color: var(--red-dark);
+}
+.u-bgd-red-darker {
+  background-color: var(--red-darker);
+}
+
+.u-bgd-orange-lighter {
+  background-color: var(--orange-lighter);
+}
+.u-bgd-orange-light {
+  background-color: var(--orange-light);
+}
+.u-bgd-orange {
+  background-color: var(--orange);
+}
+.u-bgd-orange-dark {
+  background-color: var(--orange-dark);
+}
+.u-bgd-orange-darker {
+  background-color: var(--orange-darker);
+}
+
+.u-bgd-amber-lighter {
+  background-color: var(--amber-lighter);
+}
+.u-bgd-amber-light {
+  background-color: var(--amber-light);
+}
+.u-bgd-amber {
+  background-color: var(--amber);
+}
+.u-bgd-amber-dark {
+  background-color: var(--amber-dark);
+}
+.u-bgd-amber-darker {
+  background-color: var(--amber-darker);
+}
+
+.u-bgd-yellow-lighter {
+  background-color: var(--yellow-lighter);
+}
+.u-bgd-yellow-light {
+  background-color: var(--yellow-light);
+}
+.u-bgd-yellow {
+  background-color: var(--yellow);
+}
+.u-bgd-yellow-dark {
+  background-color: var(--yellow-dark);
+}
+.u-bgd-yellow-darker {
+  background-color: var(--yellow-darker);
+}
+
+.u-bgd-lime-lighter {
+  background-color: var(--lime-lighter);
+}
+.u-bgd-lime-light {
+  background-color: var(--lime-light);
+}
+.u-bgd-lime {
+  background-color: var(--lime);
+}
+.u-bgd-lime-dark {
+  background-color: var(--lime-dark);
+}
+.u-bgd-lime-darker {
+  background-color: var(--lime-darker);
+}
+
+.u-bgd-green-lighter {
+  background-color: var(--green-lighter);
+}
+.u-bgd-green-light {
+  background-color: var(--green-light);
+}
+.u-bgd-green {
+  background-color: var(--green);
+}
+.u-bgd-green-dark {
+  background-color: var(--green-dark);
+}
+.u-bgd-green-darker {
+  background-color: var(--green-darker);
+}
+
+.u-bgd-teal-lighter {
+  background-color: var(--teal-lighter);
+}
+.u-bgd-teal-light {
+  background-color: var(--teal-light);
+}
+.u-bgd-teal {
+  background-color: var(--teal);
+}
+.u-bgd-teal-dark {
+  background-color: var(--teal-dark);
+}
+.u-bgd-teal-darker {
+  background-color: var(--teal-darker);
+}
+
+.u-bgd-blue-lighter {
+  background-color: var(--blue-lighter);
+}
+.u-bgd-blue-light {
+  background-color: var(--blue-light);
+}
+.u-bgd-blue {
+  background-color: var(--blue);
+}
+.u-bgd-blue-dark {
+  background-color: var(--blue-dark);
+}
+.u-bgd-blue-darker {
+  background-color: var(--blue-darker);
+}
+
+.u-bgd-cobalt-lighter {
+  background-color: var(--cobalt-lighter);
+}
+.u-bgd-cobalt-light {
+  background-color: var(--cobalt-light);
+}
+.u-bgd-cobalt {
+  background-color: var(--cobalt);
+}
+.u-bgd-cobalt-dark {
+  background-color: var(--cobalt-dark);
+}
+.u-bgd-cobalt-darker {
+  background-color: var(--cobalt-darker);
+}
+
+.u-bgd-purple-lighter {
+  background-color: var(--purple-lighter);
+}
+.u-bgd-purple-light {
+  background-color: var(--purple-light);
+}
+.u-bgd-purple {
+  background-color: var(--purple);
+}
+.u-bgd-purple-dark {
+  background-color: var(--purple-dark);
+}
+.u-bgd-purple-darker {
+  background-color: var(--purple-darker);
+}
+
+.u-bgd-magenta-lighter {
+  background-color: var(--magenta-lighter);
+}
+.u-bgd-magenta-light {
+  background-color: var(--magenta-light);
+}
+.u-bgd-magenta {
+  background-color: var(--magenta);
+}
+.u-bgd-magenta-dark {
+  background-color: var(--magenta-dark);
+}
+.u-bgd-magenta-darker {
+  background-color: var(--magenta-darker);
+}
+
+.u-bgd-pink-lighter {
+  background-color: var(--pink-lighter);
+}
+.u-bgd-pink-light {
+  background-color: var(--pink-light);
+}
+.u-bgd-pink {
+  background-color: var(--pink);
+}
+.u-bgd-pink-dark {
+  background-color: var(--pink-dark);
+}
+.u-bgd-pink-darker {
+  background-color: var(--pink-darker);
+}
+
+/* Color */
+.u-txt-gray0 {
+  color: var(--gray0);
+}
+.u-txt-gray1 {
+  color: var(--gray1);
+}
+.u-txt-gray2 {
+  color: var(--gray2);
+}
+.u-txt-gray3 {
+  color: var(--gray3);
+}
+.u-txt-gray4 {
+  color: var(--gray4);
+}
+.u-txt-gray5 {
+  color: var(--gray5);
+}
+.u-txt-gray6 {
+  color: var(--gray6);
+}
+.u-txt-gray7 {
+  color: var(--gray7);
+}
+.u-txt-gray8 {
+  color: var(--gray8);
+}
+.u-txt-gray9 {
+  color: var(--gray9);
+}
+.u-txt-gray-lighter {
+  color: var(--gray-lighter);
+}
+.u-txt-gray-light {
+  color: var(--gray-light);
+}
+.u-txt-gray {
+  color: var(--gray);
+}
+.u-txt-gray-dark {
+  color: var(--gray-dark);
+}
+.u-txt-gray-darker {
+  color: var(--gray-darker);
+}
+
+.u-txt-red-lighter {
+  color: var(--red-lighter);
+}
+.u-txt-red-light {
+  color: var(--red-light);
+}
+.u-txt-red {
+  color: var(--red);
+}
+.u-txt-red-dark {
+  color: var(--red-dark);
+}
+.u-txt-red-darker {
+  color: var(--red-darker);
+}
+
+.u-txt-orange-lighter {
+  color: var(--orange-lighter);
+}
+.u-txt-orange-light {
+  color: var(--orange-light);
+}
+.u-txt-orange {
+  color: var(--orange);
+}
+.u-txt-orange-dark {
+  color: var(--orange-dark);
+}
+.u-txt-orange-darker {
+  color: var(--orange-darker);
+}
+
+.u-txt-amber-lighter {
+  color: var(--amber-lighter);
+}
+.u-txt-amber-light {
+  color: var(--amber-light);
+}
+.u-txt-amber {
+  color: var(--amber);
+}
+.u-txt-amber-dark {
+  color: var(--amber-dark);
+}
+.u-txt-amber-darker {
+  color: var(--amber-darker);
+}
+
+.u-txt-yellow-lighter {
+  color: var(--yellow-lighter);
+}
+.u-txt-yellow-light {
+  color: var(--yellow-light);
+}
+.u-txt-yellow {
+  color: var(--yellow);
+}
+.u-txt-yellow-dark {
+  color: var(--yellow-dark);
+}
+.u-txt-yellow-darker {
+  color: var(--yellow-darker);
+}
+
+.u-txt-lime-lighter {
+  color: var(--lime-lighter);
+}
+.u-txt-lime-light {
+  color: var(--lime-light);
+}
+.u-txt-lime {
+  color: var(--lime);
+}
+.u-txt-lime-dark {
+  color: var(--lime-dark);
+}
+.u-txt-lime-darker {
+  color: var(--lime-darker);
+}
+
+.u-txt-green-lighter {
+  color: var(--green-lighter);
+}
+.u-txt-green-light {
+  color: var(--green-light);
+}
+.u-txt-green {
+  color: var(--green);
+}
+.u-txt-green-dark {
+  color: var(--green-dark);
+}
+.u-txt-green-darker {
+  color: var(--green-darker);
+}
+
+.u-txt-teal-lighter {
+  color: var(--teal-lighter);
+}
+.u-txt-teal-light {
+  color: var(--teal-light);
+}
+.u-txt-teal {
+  color: var(--teal);
+}
+.u-txt-teal-dark {
+  color: var(--teal-dark);
+}
+.u-txt-teal-darker {
+  color: var(--teal-darker);
+}
+
+.u-txt-blue-lighter {
+  color: var(--blue-lighter);
+}
+.u-txt-blue-light {
+  color: var(--blue-light);
+}
+.u-txt-blue {
+  color: var(--blue);
+}
+.u-txt-blue-dark {
+  color: var(--blue-dark);
+}
+.u-txt-blue-darker {
+  color: var(--blue-darker);
+}
+
+.u-txt-cobalt-lighter {
+  color: var(--cobalt-lighter);
+}
+.u-txt-cobalt-light {
+  color: var(--cobalt-light);
+}
+.u-txt-cobalt {
+  color: var(--cobalt);
+}
+.u-txt-cobalt-dark {
+  color: var(--cobalt-dark);
+}
+.u-txt-cobalt-darker {
+  color: var(--cobalt-darker);
+}
+
+.u-txt-purple-lighter {
+  color: var(--purple-lighter);
+}
+.u-txt-purple-light {
+  color: var(--purple-light);
+}
+.u-txt-purple {
+  color: var(--purple);
+}
+.u-txt-purple-dark {
+  color: var(--purple-dark);
+}
+.u-txt-purple-darker {
+  color: var(--purple-darker);
+}
+
+.u-txt-magenta-lighter {
+  color: var(--magenta-lighter);
+}
+.u-txt-magenta-light {
+  color: var(--magenta-light);
+}
+.u-txt-magenta {
+  color: var(--magenta);
+}
+.u-txt-magenta-dark {
+  color: var(--magenta-dark);
+}
+.u-txt-magenta-darker {
+  color: var(--magenta-darker);
+}
+
+.u-txt-pink-lighter {
+  color: var(--pink-lighter);
+}
+.u-txt-pink-light {
+  color: var(--pink-light);
+}
+.u-txt-pink {
+  color: var(--pink);
+}
+.u-txt-pink-dark {
+  color: var(--pink-dark);
+}
+.u-txt-pink-darker {
+  color: var(--pink-darker);
+}

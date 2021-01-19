@@ -1,0 +1,31 @@
+{
+  "newcomponent": {
+    "prefix": "newcomponent",
+    "body": [
+      "import React from 'react';",
+      "import Box from 'ui-box';",
+      "import cn from 'classnames';",
+      "",
+      "export function ${1:$TM_FILENAME_BASE}({children}) {",
+      "  return (",
+      "    <Box className={cn('jnp')}>",
+      "      {children}",
+      "    </Box>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:$TM_FILENAME_BASE}"
+    ],
+    "description": "Basic styled component"
+  },
+  "fragment": {
+    "prefix": "fragment",
+    "body": ["<>${TM_SELECTED_TEXT}</>"],
+    "description": "Wraps the currently selected text in a react fragment"
+  },
+  "box": {
+    "prefix": "box",
+    "body": ["<${1:Box}>${TM_SELECTED_TEXT}</${1:Box}>"],
+    "description": "Wraps the currently selected text in a Box"
+  }
+}
