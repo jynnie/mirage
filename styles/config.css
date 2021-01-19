@@ -1,15 +1,15 @@
 /* Raw definitions */
 :root {
-  --gray0: #fff;
-  --gray1: #f2f3f6;
-  --gray2: #d3d7e1;
-  --gray3: #b9bfcc;
-  --gray4: #9097a7;
-  --gray5: #7f8696;
-  --gray6: #444d62;
-  --gray7: #313a50;
-  --gray8: #1b253c;
-  --gray9: #000;
+  --gray0: hsl(225, 0%, 100%);
+  --gray1: hsl(225, 20%, 94%);
+  --gray2: hsl(223, 19%, 85%);
+  --gray3: hsl(221, 16%, 76%);
+  --gray4: hsl(222, 12%, 61%);
+  --gray5: hsl(222, 10%, 54%);
+  --gray6: hsl(222, 18%, 33%);
+  --gray7: hsl(222, 24%, 25%);
+  --gray8: hsl(222, 38%, 17%);
+  --gray9: hsl(0, 0%, 0%);
 
   --gray-lighter: var(--gray1);
   --gray-light: var(--gray3);
@@ -17,77 +17,77 @@
   --gray-dark: var(--gray6);
   --gray-darker: var(--gray8);
 
-  --red-lighter: #fecaca;
-  --red-light: #f87171;
-  --red: #ef4444;
-  --red-dark: #b91c1c;
-  --red-darker: #7f1d1d;
+  --red-lighter: hsl(0, 96%, 89%);
+  --red-light: hsl(0, 91%, 71%);
+  --red: hsl(0, 84%, 60%);
+  --red-dark: hsl(0, 74%, 42%);
+  --red-darker: hsl(0, 63%, 31%);
 
-  --orange-lighter: #fed7aa;
-  --orange-light: #f89849;
-  --orange: #f97316;
-  --orange-dark: #c2410c;
-  --orange-darker: #7c2d12;
+  --orange-lighter: hsl(32, 98%, 83%);
+  --orange-light: hsl(27, 93%, 63%);
+  --orange: hsl(25, 95%, 53%);
+  --orange-dark: hsl(17, 88%, 40%);
+  --orange-darker: hsl(15, 75%, 28%);
 
-  --amber-lighter: #f8e2b7;
-  --amber-light: #f8bc5b;
-  --amber: #f5a623;
-  --amber-dark: #cc6a0f;
-  --amber-darker: #693300;
+  --amber-lighter: hsl(40, 82%, 85%);
+  --amber-light: hsl(37, 92%, 66%);
+  --amber: hsl(37, 91%, 55%);
+  --amber-dark: hsl(29, 86%, 43%);
+  --amber-darker: hsl(29, 100%, 21%);
 
-  --yellow-lighter: #fef9c3;
-  --yellow-light: #fde047;
-  --yellow: #ecc100;
-  --yellow-dark: #a16207;
-  --yellow-darker: #713f12;
+  --yellow-lighter: hsl(55, 97%, 88%);
+  --yellow-light: hsl(50, 98%, 64%);
+  --yellow: hsl(49, 100%, 46%);
+  --yellow-dark: hsl(35, 92%, 33%);
+  --yellow-darker: hsl(28, 73%, 26%);
 
-  --lime-lighter: #ecfccb;
-  --lime-light: #bef264;
-  --lime: #84cc16;
-  --lime-dark: #4d7c0f;
-  --lime-darker: #365314;
+  --lime-lighter: hsl(80, 89%, 89%);
+  --lime-light: hsl(82, 85%, 67%);
+  --lime: hsl(84, 81%, 44%);
+  --lime-dark: hsl(86, 78%, 27%);
+  --lime-darker: hsl(88, 61%, 20%);
 
-  --green-lighter: #d1fae5;
-  --green-light: #5ddf9e;
-  --green: #07ce7e;
-  --green-dark: #069e64;
-  --green-darker: #083440;
+  --green-lighter: hsl(149, 80%, 90%);
+  --green-light: hsl(150, 67%, 62%);
+  --green: hsl(156, 93%, 42%);
+  --green-dark: hsl(157, 93%, 32%);
+  --green-darker: hsl(157, 78%, 14%);
 
-  --teal-lighter: #ccfbf1;
-  --teal-light: #5eead4;
-  --teal: #36cfae;
-  --teal-dark: #109276;
-  --teal-darker: #134e4a;
+  --teal-lighter: hsl(167, 85%, 89%);
+  --teal-light: hsl(171, 77%, 64%);
+  --teal: hsl(167, 61%, 51%);
+  --teal-dark: hsl(167, 80%, 32%);
+  --teal-darker: hsl(176, 61%, 19%);
 
-  --blue-lighter: #c0e6ff;
-  --blue-light: #5ebbfa;
-  --blue: #0e91e9;
-  --blue-dark: #0562a1;
-  --blue-darker: #00375d;
+  --blue-lighter: hsl(204, 100%, 88%);
+  --blue-light: hsl(204, 94%, 67%);
+  --blue: hsl(204, 89%, 48%);
+  --blue-dark: hsl(204, 94%, 33%);
+  --blue-darker: hsl(205, 100%, 18%);
 
-  --cobalt-lighter: #c0ccff;
-  --cobalt-light: #7b94ff;
-  --cobalt: #4366ff;
-  --cobalt-dark: #2b28d6;
-  --cobalt-darker: #1e298a;
+  --cobalt-lighter: hsl(229, 100%, 88%);
+  --cobalt-light: hsl(229, 100%, 74%);
+  --cobalt: hsl(229, 100%, 66%);
+  --cobalt-dark: hsl(229, 67%, 40%);
+  --cobalt-darker: hsl(229, 64%, 33%);
 
-  --purple-lighter: #e9d5ff;
-  --purple-light: #a86be6;
-  --purple: #7928ca;
-  --purple-dark: #51188b;
-  --purple-darker: #370d60;
+  --purple-lighter: hsl(269, 100%, 92%);
+  --purple-light: hsl(270, 71%, 66%);
+  --purple: hsl(270, 67%, 47%);
+  --purple-dark: hsl(270, 71%, 32%);
+  --purple-darker: hsl(270, 76%, 21%);
 
-  --magenta-lighter: #f5dbfa;
-  --magenta-light: #dd75f2;
-  --magenta: #d346ef;
-  --magenta-dark: #8c13a4;
-  --magenta-darker: #611072;
+  --magenta-lighter: hsl(290, 76%, 92%);
+  --magenta-light: hsl(290, 83%, 70%);
+  --magenta: hsl(290, 84%, 61%);
+  --magenta-dark: hsl(290, 79%, 36%);
+  --magenta-darker: hsl(290, 75%, 25%);
 
-  --pink-lighter: #ffd6ed;
-  --pink-light: #e67ca5;
-  --pink: #e05188;
-  --pink-dark: #be185d;
-  --pink-darker: #6c1737;
+  --pink-lighter: hsl(326, 100%, 92%);
+  --pink-light: hsl(337, 68%, 69%);
+  --pink: hsl(337, 70%, 60%);
+  --pink-dark: hsl(335, 78%, 42%);
+  --pink-darker: hsl(337, 65%, 26%);
 
   --unit: 1rem;
 }
