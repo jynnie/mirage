@@ -1,6 +1,12 @@
 @import "./config.css";
 
-/* Background */
+/* ---- Spacing ---- */
+/* maxWidth of Content */
+.u-maxWd-ct {
+  max-width: var(--sp-x48);
+}
+
+/* ---- Background ---- */
 .u-bgd-gray0 {
   background-color: var(--gray0);
 }
@@ -239,7 +245,7 @@
   background-color: var(--pink-darker);
 }
 
-/* Color */
+/* ---- Text Color ---- */
 .u-txt-gray0 {
   color: var(--gray0);
 }
