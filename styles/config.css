@@ -1,0 +1,135 @@
+/* Raw definitions */
+:root {
+  --gray0: #fff;
+  --gray1: #f2f3f6;
+  --gray2: #d3d7e1;
+  --gray3: #b9bfcc;
+  --gray4: #9097a7;
+  --gray5: #7f8696;
+  --gray6: #444d62;
+  --gray7: #313a50;
+  --gray8: #1b253c;
+  --gray9: #000;
+
+  --gray-lighter: var(--gray1);
+  --gray-light: var(--gray3);
+  --gray: var(--gray4);
+  --gray-dark: var(--gray6);
+  --gray-darker: var(--gray8);
+
+  --red-lighter: #fecaca;
+  --red-light: #f87171;
+  --red: #ef4444;
+  --red-dark: #b91c1c;
+  --red-darker: #7f1d1d;
+
+  --orange-lighter: #fed7aa;
+  --orange-light: #f89849;
+  --orange: #f97316;
+  --orange-dark: #c2410c;
+  --orange-darker: #7c2d12;
+
+  --amber-lighter: #f8e2b7;
+  --amber-light: #f8bc5b;
+  --amber: #f5a623;
+  --amber-dark: #cc6a0f;
+  --amber-darker: #693300;
+
+  --yellow-lighter: #fef9c3;
+  --yellow-light: #fde047;
+  --yellow: #ecc100;
+  --yellow-dark: #a16207;
+  --yellow-darker: #713f12;
+
+  --lime-lighter: #ecfccb;
+  --lime-light: #bef264;
+  --lime: #84cc16;
+  --lime-dark: #4d7c0f;
+  --lime-darker: #365314;
+
+  --green-lighter: #d1fae5;
+  --green-light: #5ddf9e;
+  --green: #07ce7e;
+  --green-dark: #069e64;
+  --green-darker: #083440;
+
+  --teal-lighter: #ccfbf1;
+  --teal-light: #5eead4;
+  --teal: #36cfae;
+  --teal-dark: #109276;
+  --teal-darker: #134e4a;
+
+  --blue-lighter: #c0e6ff;
+  --blue-light: #5ebbfa;
+  --blue: #0e91e9;
+  --blue-dark: #0562a1;
+  --blue-darker: #00375d;
+
+  --cobalt-lighter: #c0ccff;
+  --cobalt-light: #7b94ff;
+  --cobalt: #4366ff;
+  --cobalt-dark: #2b28d6;
+  --cobalt-darker: #1e298a;
+
+  --purple-lighter: #e9d5ff;
+  --purple-light: #a86be6;
+  --purple: #7928ca;
+  --purple-dark: #51188b;
+  --purple-darker: #370d60;
+
+  --magenta-lighter: #f5dbfa;
+  --magenta-light: #dd75f2;
+  --magenta: #d346ef;
+  --magenta-dark: #8c13a4;
+  --magenta-darker: #611072;
+
+  --pink-lighter: #ffd6ed;
+  --pink-light: #e67ca5;
+  --pink: #e05188;
+  --pink-dark: #be185d;
+  --pink-darker: #6c1737;
+
+  --unit: 1rem;
+}
+
+/* Semantic definitions */
+:root {
+  --text0: var(--gray8);
+  --text: var(--gray6);
+  --text1: var(--gray5);
+  --text2: var(--gray4);
+  --text3: var(--gray3);
+  --text-header: var(--text0);
+  --text-caption: var(--text3);
+  --text-white: var(--gray0);
+  --text-black: var(--gray9);
+
+  --primary-lighter: var(--cobalt-lighter);
+  --primary-light: var(--cobalt-light);
+  --primary: var(--cobalt);
+  --primary-dark: var(--cobalt-dark);
+  --primary-darker: var(--cobalt-darker);
+
+  --success-lighter: var(--blue-lighter);
+  --success-light: var(--blue-light);
+  --success: var(--blue);
+  --success-dark: var(--blue-dark);
+  --success-darker: var(--blue-darker);
+
+  --warning-lighter: var(--amber-lighter);
+  --warning-light: var(--amber-light);
+  --warning: var(--amber);
+  --warning-dark: var(--amber-dark);
+  --warning-darker: var(--amber-darker);
+
+  --danger-lighter: var(--red-lighter);
+  --danger-light: var(--red-light);
+  --danger: var(--red);
+  --danger-dark: var(--red-dark);
+  --danger-darker: var(--red-darker);
+
+  --font: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --font-header: var(--font);
+  --font-caption: var(--font);
+}
