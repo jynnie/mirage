@@ -59,13 +59,13 @@
   --teal-dark: hsl(167, 80%, 32%);
   --teal-darker: hsl(176, 61%, 19%);
 
-  --blue-lighter: hsl(204, 100%, 88%);
+  --blue-lighter: hsl(204, 100%, 89%);
   --blue-light: hsl(204, 94%, 67%);
   --blue: hsl(204, 89%, 48%);
   --blue-dark: hsl(204, 94%, 33%);
   --blue-darker: hsl(205, 100%, 18%);
 
-  --cobalt-lighter: hsl(229, 100%, 88%);
+  --cobalt-lighter: hsl(229, 100%, 90%);
   --cobalt-light: hsl(229, 100%, 74%);
   --cobalt: hsl(229, 100%, 66%);
   --cobalt-dark: hsl(229, 67%, 40%);
@@ -97,7 +97,8 @@
   --sp-lg: calc(var(--sp) * 1);
   --sp-xl: calc(var(--sp) * 1.5);
   --sp-xxl: calc(var(--sp) * 2);
-  --sp-x2: calc(var(--sp) * 3);
+  --sp-x2: calc(var(--sp) * 2);
+  --sp-x2p5: calc(var(--sp) * 2.5); /* Special case for 40px */
   --sp-xxxl: calc(var(--sp) * 3);
   --sp-x3: calc(var(--sp) * 3);
   --sp-x4: calc(var(--sp) * 4);
@@ -113,15 +114,24 @@
 
 /* Semantic definitions */
 :root {
-  --text0: var(--gray8);
-  --text: var(--gray6);
-  --text1: var(--gray5);
-  --text2: var(--gray4);
-  --text3: var(--gray3);
-  --text-header: var(--text0);
-  --text-caption: var(--text3);
-  --text-white: var(--gray0);
-  --text-black: var(--gray9);
+  --text-color0: var(--gray8);
+  --text-color: var(--gray6);
+  --text-color1: var(--gray5);
+  --text-color2: var(--gray4);
+  --text-color3: var(--gray3);
+  --text-color-header: var(--text-color0);
+  --text-color-caption: var(--text-color3);
+  --text-color-white: var(--gray0);
+  --text-color-black: var(--gray9);
+
+  --text-size: 14px;
+  --text-size-sm: calc(var(--text-size) * 0.75);
+  --text-size-md: calc(var(--text-size) * 1);
+  --text-size-lg: calc(var(--text-size) * 1.5);
+  --text-size-xl: calc(var(--text-size) * 2);
+
+  --radius-rounded: 6px;
+  --radius-round: 50%;
 
   --font: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -151,4 +161,12 @@
   --danger: var(--red);
   --danger-dark: var(--red-dark);
   --danger-darker: var(--red-darker);
+
+  /* For interactables */
+  --transition-fast: 0.2s;
+  /* For system messages */
+  --transition: 0.4s;
+  --transition-slow: 1s;
+  /* For loaders & animations */
+  --transition-slower: 2s;
 }

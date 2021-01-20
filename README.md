@@ -15,6 +15,12 @@ $ yarn install
 $ yarn dev
 ```
 
+### Using CSS and SCSS
+
+Juniper is fully customizable from CSS only. Variables and CSS classes can be rewritten. Development uses SCSS purely for some nesting and helpers -- no SCSS variables.
+
+Final dist/ compiles to CSS.
+
 ## Credits
 
 This project builds on top of other components. Notably,

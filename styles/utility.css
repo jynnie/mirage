@@ -1,9 +1,21 @@
-@import "./config.css";
-
 /* ---- Spacing ---- */
 /* maxWidth of Content */
 .u-maxWd-ct {
   max-width: var(--sp-x48);
+}
+
+/* ---- Text Sizes ---- */
+.u-txt-size-sm {
+  font-size: var(--text-size-sm);
+}
+.u-txt-size-md {
+  font-size: var(--text-size-md);
+}
+.u-txt-size-lg {
+  font-size: var(--text-size-lg);
+}
+.u-txt-size-xl {
+  font-size: var(--text-size-xl);
 }
 
 /* ---- Background ---- */
