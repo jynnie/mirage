@@ -4,3 +4,6 @@ import Box from "ui-box";
 export { Box };
 export * from "./primitives/Flex";
 export * from "./primitives/Grid";
+
+// Core Components
+export * from "./Button";

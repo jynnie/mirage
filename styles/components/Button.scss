@@ -1,0 +1,99 @@
+.jnpr-button {
+  --bgd: var(--primary);
+  --bgd-lighter: var(--primary-lighter);
+  --bgd-light: var(--primary-light);
+  --bgd-dark: var(--primary-dark);
+  --icon-mg: var(--sp-sm);
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  color: var(--text-color-white);
+  background-color: var(--bgd);
+  border: 1px solid var(--bgd);
+  border-radius: var(--radius-rounded);
+  transition: background var(--transition-fast), border var(--transition-fast);
+
+  cursor: pointer;
+
+  //* Sizes
+  &-small {
+    --icon-size: var(--text-size);
+    --shape-size: var(--sp-xxl);
+
+    padding: var(--sp-xs) var(--sp-md);
+    font-size: var(--text-size);
+  }
+  &-medium {
+    --icon-size: var(--text-size);
+    --shape-size: var(--sp-x2p5);
+
+    padding: var(--sp-sm) var(--sp-md);
+    font-size: var(--text-size);
+  }
+  &-large {
+    --icon-size: var(--text-size-lg);
+    --shape-size: var(--sp-xxxl);
+
+    padding: var(--sp-sm) var(--sp-lg);
+    font-size: var(--text-size-lg);
+  }
+
+  //* States
+  &:hover {
+    background-color: var(--bgd-light);
+    border-color: var(--bgd-light);
+  }
+  &:active,
+  &.active {
+    background-color: var(--bgd-dark);
+    border-color: var(--bgd-dark);
+  }
+  &:focus {
+    box-shadow: 0 0 0 var(--sp-xs) var(--bgd-lighter);
+    outline: none;
+  }
+  &.disabled {
+    cursor: not-allowed;
+    background-color: var(--gray1);
+    border-color: var(--gray2);
+    color: var(--gray3);
+  }
+
+  //* Shapes
+  &-square,
+  &-circle {
+    --icon-mg: 0;
+
+    width: var(--shape-size);
+    height: var(--shape-size);
+    padding: 0;
+  }
+  &-circle {
+    border-radius: var(--radius-round);
+  }
+
+  //* Icons
+  &-icon {
+    height: var(--icon-size);
+    width: var(--icon-size);
+    margin-right: var(--icon-mg);
+  }
+}
+
+// TODO: Move spinner out of this file
+.jnpr-spinner {
+  animation-name: jnpr-loading-spinner;
+  animation-timing-function: linear;
+  animation-duration: var(--transition-slower);
+  animation-iteration-count: infinite;
+}
+
+@keyframes jnpr-loading-spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

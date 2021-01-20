@@ -96,11 +96,11 @@
   --sp-md: calc(var(--sp) * 0.75);
   --sp-lg: calc(var(--sp) * 1);
   --sp-xl: calc(var(--sp) * 1.5);
+  --sp-x2: var(--sp-xxl);
   --sp-xxl: calc(var(--sp) * 2);
-  --sp-x2: calc(var(--sp) * 2);
   --sp-x2p5: calc(var(--sp) * 2.5); /* Special case for 40px */
-  --sp-xxxl: calc(var(--sp) * 3);
   --sp-x3: calc(var(--sp) * 3);
+  --sp-xxxl: var(--sp-x3);
   --sp-x4: calc(var(--sp) * 4);
   --sp-x6: calc(var(--sp) * 6);
   --sp-x8: calc(var(--sp) * 8);
@@ -110,6 +110,18 @@
   --sp-x32: calc(var(--sp) * 32);
   --sp-x40: calc(var(--sp) * 40);
   --sp-x48: calc(var(--sp) * 48);
+
+  --text-size: 14px;
+  --text-size-sm: 12px;
+  --text-size-md: var(--text-size);
+  --text-size-ml: 16px; /* Special size in between md/lg */
+  --text-size-lg: 18px;
+  --text-size-xl: 20px;
+  --text-size-x2: 24px;
+  --text-size-xxl: var(--text-size-x2);
+  --text-size-x3: 30px;
+  --text-size-xxxl: var(--text-size-x3);
+  --text-size-x3: 36px;
 }
 
 /* Semantic definitions */
@@ -123,12 +135,6 @@
   --text-color-caption: var(--text-color3);
   --text-color-white: var(--gray0);
   --text-color-black: var(--gray9);
-
-  --text-size: 14px;
-  --text-size-sm: calc(var(--text-size) * 0.75);
-  --text-size-md: calc(var(--text-size) * 1);
-  --text-size-lg: calc(var(--text-size) * 1.5);
-  --text-size-xl: calc(var(--text-size) * 2);
 
   --radius-rounded: 6px;
   --radius-round: 50%;

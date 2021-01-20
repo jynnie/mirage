@@ -1,0 +1,94 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import { Box, Flex, Grid, Button } from "..";
+import { Smile, Meh } from "react-feather";
+
+import "styles/index.scss";
+
+<Meta title="Core/Button" component={Button} />
+
+# Button
+
+To trigger an operation.
+
+### Sizes
+
+<Canvas>
+  <Story name="Sizes">
+    <Grid colNum={3}>
+      <Box>
+        <Button size="small">Button</Button>
+      </Box>
+      <Box>
+        <Button size="medium">Button</Button>
+      </Box>
+      <Box>
+        <Button size="large">Button</Button>
+      </Box>
+    </Grid>
+  </Story>
+</Canvas>
+
+### Shapes
+
+<Canvas>
+  <Story name="Shapes">
+    <Grid colNum={6}>
+      <Box>
+        <Button size="small" shape="square" icon={<Smile />} />
+      </Box>
+      <Box>
+        <Button size="medium" shape="square" icon={<Smile />} />
+      </Box>
+      <Box>
+        <Button size="large" shape="square" icon={<Smile />} />
+      </Box>
+      <Box>
+        <Button size="small" shape="circle" icon={<Smile />} />
+      </Box>
+      <Box>
+        <Button size="medium" shape="circle" icon={<Smile />} />
+      </Box>
+      <Box>
+        <Button size="large" shape="circle" icon={<Smile />} />
+      </Box>
+    </Grid>
+  </Story>
+</Canvas>
+
+### Loading
+
+`onClick`s that return `Promise`s, default trigger a loading state.
+
+<Canvas>
+  <Story name="Loading">
+    <Grid colNum={2}>
+      <Box>
+        <Button
+          onClick={() => new Promise((resolve) => setTimeout(resolve, 2400))}
+        >
+          Try Me
+        </Button>
+      </Box>
+      <Box>
+        <Button loading>Loading</Button>
+      </Box>
+    </Grid>
+  </Story>
+</Canvas>
+
+### Disabled
+
+<Canvas>
+  <Story name="Disabled">
+    <Grid colNum={2}>
+      <Box>
+        <Button disabled>Disabled</Button>
+      </Box>
+      <Box>
+        <Button icon={<Meh />} disabled>
+          Disabled
+        </Button>
+      </Box>
+    </Grid>
+  </Story>
+</Canvas>
