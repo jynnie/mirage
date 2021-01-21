@@ -1,18 +1,15 @@
 .jnpr-button {
-  --bgd: var(--primary);
-  --bgd-lighter: var(--primary-lighter);
-  --bgd-light: var(--primary-light);
-  --bgd-dark: var(--primary-dark);
   --icon-mg: var(--sp-sm);
 
   overflow: hidden;
   text-overflow: ellipsis;
 
   color: var(--text-color-white);
-  background-color: var(--bgd);
-  border: 1px solid var(--bgd);
+  background-color: var(--main);
+  border: 1px solid var(--main);
   border-radius: var(--radius-rounded);
-  transition: background var(--transition-fast), border var(--transition-fast);
+  transition: background var(--transition-fast), border var(--transition-fast),
+    color var(--transition-fast);
 
   cursor: pointer;
 
@@ -40,17 +37,8 @@
   }
 
   //* States
-  &:hover {
-    background-color: var(--bgd-light);
-    border-color: var(--bgd-light);
-  }
-  &:active,
-  &.active {
-    background-color: var(--bgd-dark);
-    border-color: var(--bgd-dark);
-  }
   &:focus {
-    box-shadow: 0 0 0 var(--sp-xs) var(--bgd-lighter);
+    box-shadow: 0 0 0 var(--sp-xs) var(--main-lighter);
     outline: none;
   }
   &.disabled {
@@ -78,6 +66,46 @@
     height: var(--icon-size);
     width: var(--icon-size);
     margin-right: var(--icon-mg);
+  }
+
+  //* Intents
+  &-primary {
+    &:hover {
+      background-color: var(--main-light);
+      border-color: var(--main-light);
+    }
+    &:active,
+    &.active {
+      background-color: var(--main-dark);
+      border-color: var(--main-dark);
+    }
+  }
+
+  &-secondary {
+    color: var(--gray5);
+    border: 1px solid var(--gray3);
+    background-color: transparent;
+
+    &:hover {
+      background-color: transparent;
+      border-color: var(--gray7);
+      color: var(--gray7);
+    }
+    &:active,
+    &.active {
+      background-color: var(--gray1);
+      border-color: var(--gray9);
+      color: var(--gray9);
+    }
+  }
+
+  @each $i in $intents {
+    &-#{$i} {
+      --main: var(--#{$i});
+      --main-lighter: var(--#{$i}-lighter);
+      --main-light: var(--#{$i}-light);
+      --main-dark: var(--#{$i}-dark);
+    }
   }
 }
 

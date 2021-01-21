@@ -7,11 +7,11 @@ import type {
   ButtonKeyEvt,
 } from "./Button.model";
 
-// TODO: Support className
-// TODO: Support intent
+// TODO: Color prop?
 // TODO: Appearance fill vs. outlined?
 
 export function useButton({
+  className,
   classPrefix = "jnpr-button",
   intent = "primary",
   type = "button",
@@ -72,9 +72,11 @@ export function useButton({
     role: "button",
     tabIndex: isBusy ? -1 : 0,
     className: cn(
+      className,
       classPrefix,
       `${classPrefixHyphen}${size}`,
       `${classPrefixHyphen}${shape}`,
+      `${classPrefixHyphen}${intent}`,
       {
         disabled: disabled || isLoading,
         active: isActive,

@@ -5,6 +5,7 @@ type ClickEvent = React.MouseEvent<HTMLElement>;
 //* Button Component
 
 export interface ButtonProps {
+  className?: string;
   intent?: "primary" | "secondary" | "success" | "warning" | "danger";
   type?: "button" | "reset" | "submit";
   size?: "small" | "medium" | "large";

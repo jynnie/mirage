@@ -6,6 +6,8 @@ import { ButtonProps } from "./Button.model";
 import Flex from "components/primitives/Flex";
 
 export function Button({
+  className,
+  intent = "primary",
   size = "medium",
   type = "button",
   shape,
@@ -18,6 +20,8 @@ export function Button({
   ...props
 }: ButtonProps) {
   const { props: buttonProps, icon, isLoading } = useButton({
+    className,
+    intent,
     type,
     size,
     shape,

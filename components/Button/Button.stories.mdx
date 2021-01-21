@@ -55,6 +55,40 @@ To trigger an operation.
   </Story>
 </Canvas>
 
+### Intent
+
+<Canvas>
+  <Story name="Intent">
+    <Grid colNum={5}>
+      <Box>
+        <Button intent="primary">Primary</Button>
+      </Box>
+      <Box>
+        <Button intent="secondary">Secondary</Button>
+      </Box>
+      <Box>
+        <Button intent="success">Success</Button>
+      </Box>
+      <Box>
+        <Button intent="warning">Warning</Button>
+      </Box>
+      <Box>
+        <Button intent="danger">Danger</Button>
+      </Box>
+    </Grid>
+  </Story>
+</Canvas>
+
+### Icons
+
+<Canvas>
+  <Story name="Icons">
+    <Box>
+      <Button icon={<Smile />}>Prefix</Button>
+    </Box>
+  </Story>
+</Canvas>
+
 ### Loading
 
 `onClick`s that return `Promise`s, default trigger a loading state.
@@ -83,6 +117,32 @@ To trigger an operation.
     <Grid colNum={2}>
       <Box>
         <Button disabled>Disabled</Button>
+      </Box>
+    </Grid>
+  </Story>
+</Canvas>
+
+### Color Variation
+
+Attach `u-make-COLOR` classes, to use a color variation.
+
+<Canvas>
+  <Story name="Colors">
+    <Grid colNum={5}>
+      <Box>
+        <Button className="u-make-red">Red</Button>
+      </Box>
+      <Box>
+        <Button className="u-make-amber">Amber</Button>
+      </Box>
+      <Box>
+        <Button className="u-make-green">Green</Button>
+      </Box>
+      <Box>
+        <Button className="u-make-teal">Teal</Button>
+      </Box>
+      <Box>
+        <Button className="u-make-pink">Pink</Button>
       </Box>
     </Grid>
   </Story>
