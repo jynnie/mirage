@@ -7,8 +7,13 @@ import type {
   ButtonKeyEvt,
 } from "./Button.model";
 
+// TODO: Support className
+// TODO: Support intent
+// TODO: Appearance fill vs. outlined?
+
 export function useButton({
   classPrefix = "jnpr-button",
+  intent = "primary",
   type = "button",
   size = "medium",
   shape,

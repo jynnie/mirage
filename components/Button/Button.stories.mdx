@@ -1,6 +1,6 @@
 import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
 import { Box, Flex, Grid, Button } from "..";
-import { Smile, Meh } from "react-feather";
+import { Smile } from "react-feather";
 
 import "styles/index.scss";
 
@@ -83,11 +83,6 @@ To trigger an operation.
     <Grid colNum={2}>
       <Box>
         <Button disabled>Disabled</Button>
-      </Box>
-      <Box>
-        <Button icon={<Meh />} disabled>
-          Disabled
-        </Button>
       </Box>
     </Grid>
   </Story>

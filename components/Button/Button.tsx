@@ -6,8 +6,8 @@ import { ButtonProps } from "./Button.model";
 import Flex from "components/primitives/Flex";
 
 export function Button({
-  type = "button",
   size = "medium",
+  type = "button",
   shape,
   onClick,
   disabled = false,
