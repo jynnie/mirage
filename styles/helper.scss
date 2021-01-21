@@ -1,0 +1,20 @@
+// Helper definition file for development
+// ease of SCSS files
+
+$intents: ("primary", "success", "warning", "danger");
+$colors: (
+  "gray",
+  "red",
+  "orange",
+  "amber",
+  "yellow",
+  "lime",
+  "green",
+  "teal",
+  "blue",
+  "cobalt",
+  "purple",
+  "pink"
+);
+$hues: ("darker", "dark", "light", "lighter");
+$grayHues: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9);

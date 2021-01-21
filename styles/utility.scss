@@ -1,0 +1,72 @@
+/* //* ---- Spacing ---- */
+
+/* maxWidth of Content */
+.u-maxWd-ct {
+  max-width: var(--sp-x48);
+}
+
+/* //* ---- Text Sizes ---- */
+
+.u-txt-size-sm {
+  font-size: var(--text-size-sm);
+}
+.u-txt-size-md {
+  font-size: var(--text-size-md);
+}
+.u-txt-size-lg {
+  font-size: var(--text-size-lg);
+}
+.u-txt-size-xl {
+  font-size: var(--text-size-xl);
+}
+
+/* //* ---- Color Variant Classes ---- */
+/* ⚠️ Warning: These are overrides */
+
+@each $c in $colors {
+  .u-make-#{$c} {
+    --main-lighter: var(--#{$c}-lighter) !important;
+    --main-light: var(--#{$c}-light) !important;
+    --main: var(--#{$c}) !important;
+    --main-dark: var(--#{$c}-dark) !important;
+    --main-darker: var(--#{$c}-darker) !important;
+  }
+}
+
+/* //* ---- Background ---- */
+
+@each $h in $grayHues {
+  .u-bgd-gray#{$h} {
+    background-color: var(--gray#{$h});
+  }
+}
+
+@each $c in $colors {
+  .u-bgd-#{$c} {
+    background-color: var(--#{$c});
+  }
+  @each $h in $hues {
+    .u-bgd-#{$c}-#{$h} {
+      background-color: var(--#{$c}-#{$h});
+    }
+  }
+}
+
+/* //* ---- Text Color ---- */
+
+@each $h in $grayHues {
+  .u-txt-gray#{$h} {
+    color: var(--gray#{$h});
+  }
+}
+
+@each $c in $colors {
+  .u-txt-#{$c} {
+    color: var(--#{$c});
+  }
+  @each $h in $hues {
+    .u-txt-#{$c}-#{$h} {
+      color: var(--#{$c}-#{$h});
+    }
+  }
+}
