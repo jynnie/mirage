@@ -8,6 +8,7 @@ import Flex from "components/primitives/Flex";
 export function Button({
   className,
   intent = "primary",
+  appearance = "fill",
   size = "medium",
   type = "button",
   shape,
@@ -22,6 +23,7 @@ export function Button({
   const { props: buttonProps, icon, isLoading } = useButton({
     className,
     intent,
+    appearance,
     type,
     size,
     shape,

@@ -7,10 +7,11 @@ type ClickEvent = React.MouseEvent<HTMLElement>;
 export interface ButtonProps {
   className?: string;
   intent?: "primary" | "secondary" | "success" | "warning" | "danger";
+  appearance?: "fill" | "outline" | "minimal";
   type?: "button" | "reset" | "submit";
   size?: "small" | "medium" | "large";
   shape?: "circle" | "square";
-  onClick?: (evt?: React.MouseEvent<HTMLElement>) => void | Promise<any>;
+  onClick?: (evt?: ClickEvent | React.KeyboardEvent) => void | Promise<any>;
   disabled?: boolean;
   loading?: boolean;
   active?: boolean;

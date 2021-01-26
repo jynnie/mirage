@@ -3,14 +3,9 @@
 
   overflow: hidden;
   text-overflow: ellipsis;
-
-  color: var(--text-color-white);
-  background-color: var(--main);
-  border: 1px solid var(--main);
   border-radius: var(--radius-rounded);
   transition: background var(--transition-fast), border var(--transition-fast),
     color var(--transition-fast);
-
   cursor: pointer;
 
   //* Sizes
@@ -68,8 +63,11 @@
     margin-right: var(--icon-mg);
   }
 
-  //* Intents
-  &-primary {
+  //* Appearance
+  &-fill {
+    color: var(--text-color-white);
+    border: 1px solid var(--main);
+    background-color: var(--main);
     &:hover {
       background-color: var(--main-light);
       border-color: var(--main-light);
@@ -80,7 +78,39 @@
       border-color: var(--main-dark);
     }
   }
+  &-outline {
+    color: var(--main);
+    border: 1px solid var(--main);
+    background-color: transparent;
 
+    &:hover {
+      background-color: transparent;
+    }
+    &:active,
+    &.active {
+      color: var(--main-dark);
+      border-color: var(--main-dark);
+      background-color: var(--gray1);
+    }
+  }
+  &-minimal {
+    color: var(--main);
+    border: 1px solid transparent;
+    background-color: transparent;
+
+    &:hover {
+      background-color: var(--gray1);
+      border-color: transparent;
+    }
+    &:active,
+    &.active {
+      color: var(--main-dark);
+      border-color: transparent;
+      background-color: var(--gray2);
+    }
+  }
+
+  //* Intents
   &-secondary {
     color: var(--gray5);
     border: 1px solid var(--gray3);

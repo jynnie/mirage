@@ -8,12 +8,12 @@ import type {
 } from "./Button.model";
 
 // TODO: Color prop?
-// TODO: Appearance fill vs. outlined?
 
 export function useButton({
   className,
   classPrefix = "jnpr-button",
   intent = "primary",
+  appearance = "fill",
   type = "button",
   size = "medium",
   shape,
@@ -77,6 +77,7 @@ export function useButton({
       `${classPrefixHyphen}${size}`,
       `${classPrefixHyphen}${shape}`,
       `${classPrefixHyphen}${intent}`,
+      `${classPrefixHyphen}${appearance}`,
       {
         disabled: disabled || isLoading,
         active: isActive,
