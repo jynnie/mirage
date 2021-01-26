@@ -137,6 +137,16 @@
       --main-dark: var(--#{$i}-dark);
     }
   }
+
+  //* Color
+  @each $c in $colors {
+    &-#{$c} {
+      --main: var(--#{$c});
+      --main-lighter: var(--#{$c}-lighter);
+      --main-light: var(--#{$c}-light);
+      --main-dark: var(--#{$c}-dark);
+    }
+  }
 }
 
 // TODO: Move spinner out of this file

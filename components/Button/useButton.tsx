@@ -14,6 +14,7 @@ export function useButton({
   classPrefix = "jnpr-button",
   intent = "primary",
   appearance = "fill",
+  color,
   type = "button",
   size = "medium",
   shape,
@@ -81,6 +82,7 @@ export function useButton({
       {
         disabled: disabled || isLoading,
         active: isActive,
+        [`${classPrefixHyphen}${color}`]: !!color,
       },
     ),
     type: type,

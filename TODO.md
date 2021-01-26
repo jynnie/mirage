@@ -1,7 +1,7 @@
 🌶🌶🌶 Important feature or super cool
 
 - [x] colors\*
-- [ ] button\*
+- [x] button\*
 - [ ] utility CSS classes
 - [ ] flex, built off box\*
 - [ ] click out wrapper\*
