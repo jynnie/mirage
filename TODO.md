@@ -3,7 +3,7 @@
 - [x] colors\*
 - [x] button\*
 - [ ] utility CSS classes
-- [ ] flex, built off box\*
+- [x] flex, built off box\*
 - [ ] click out wrapper\*
 
 🌶🌶 Good value add
