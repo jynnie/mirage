@@ -11,6 +11,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
+    "immer": "^8.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-feather": "^2.0.9",
