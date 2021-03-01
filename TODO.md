@@ -4,7 +4,7 @@
 - [x] button\*
 - [ ] utility CSS classes
 - [x] flex, built off box\*
-- [ ] click out wrapper\*
+- [x] click out wrapper\*
 
 🌶🌶 Good value add
 
