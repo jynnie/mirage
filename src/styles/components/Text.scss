@@ -59,7 +59,7 @@
 }
 
 .jnpr-code {
-  --main: var(--text-color-code)
+  --main: var(--text-color-code);
   --main-lighter: var(text-color-code-lighter);
 
   font-size: var(--text-size-md);
