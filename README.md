@@ -8,7 +8,7 @@ Work in progress personal project of React components built on pure CSS variable
 
 ## Getting Started
 
-The project's site is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project files are in `src/`. Additionally you can test with Storybook or the Next.js pages.
 
 ```
 $ yarn install
@@ -19,7 +19,7 @@ $ yarn dev
 
 Juniper is fully customizable from CSS only. Variables and CSS classes can be rewritten. Development uses SCSS purely for some nesting and helpers -- no SCSS variables.
 
-Final dist/ compiles to CSS.
+Final `dist/` compiles to CSS.
 
 ## Credits
 
