@@ -1,6 +1,4 @@
-// import babel from "rollup-plugin-babel";
 import commonjs from "@rollup/plugin-commonjs";
-import postcss from "rollup-plugin-postcss";
 import resolve from "@rollup/plugin-node-resolve";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import typescript from "rollup-plugin-typescript2";
@@ -23,14 +21,25 @@ export default {
     },
   ],
   plugins: [
-    peerDepsExternal({ includeDependencies: true }),
+    peerDepsExternal(),
     resolve(),
     commonjs({
       include: /node_modules/,
     }),
-    sass({ insert: true }),
-    postcss(),
-    typescript({ lib: ["es5", "es6", "dom"], target: "es5" }),
+    sass({
+      include: [
+        "./src/styles/**/*.scss",
+        "./src/styles/**/*.sass",
+        "./src/styles/**/*.css",
+      ],
+      output: "./build/style.css",
+      failOnError: true,
+    }),
+    typescript({
+      lib: ["es5", "es6", "dom"],
+      target: "es5",
+      tsconfig: "./tsconfig.rollup.json",
+    }),
   ],
   external: ["react", "react-feather"],
 };
