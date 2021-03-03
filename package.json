@@ -1,7 +1,6 @@
 {
-  "name": "juniper",
+  "name": "juniper-ui",
   "version": "0.3.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "rollup -c",
@@ -56,5 +55,21 @@
   "module": "build/index.es.js",
   "files": [
     "build"
-  ]
+  ],
+  "description": "A React component library.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jynnie/juniper.git"
+  },
+  "keywords": [
+    "React",
+    "UI Library",
+    "Component Library"
+  ],
+  "author": "jynnie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jynnie/juniper/issues"
+  },
+  "homepage": "https://github.com/jynnie/juniper#readme"
 }
