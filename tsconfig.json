@@ -20,7 +20,7 @@
     "declaration": true,
     "declarationDir": "build"
   },
-  "include": ["next-env.d.ts", "src"],
-  // "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  // "include": ["next-env.d.ts", "src"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "build", "pages"]
 }

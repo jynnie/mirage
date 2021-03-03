@@ -14,24 +14,28 @@ export default {
     {
       file: packageJson.main,
       format: "cjs",
-      sourcemap: "inline",
+      sourcemap: true,
+      strict: false,
     },
     {
       file: packageJson.module,
       format: "esm",
-      sourcemap: "inline",
+      sourcemap: true,
     },
   ],
+  // TODO: Do I need all these? I really was just fiddling to get something to work...
   plugins: [
     peerDepsExternal(),
+    resolve(),
+    commonjs({
+      include: "node_modules/**",
+    }),
     sass({ insert: true }),
     postcss(),
-    typescript(),
+    typescript({ lib: ["es5", "es6", "dom"], target: "es5" }),
     babel({
       exclude: "node_modules/**",
     }),
-    resolve(),
-    commonjs(),
   ],
-  external: ["react-feather"],
+  external: ["react", "react-feather"],
 };
