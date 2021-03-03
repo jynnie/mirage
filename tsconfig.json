@@ -17,8 +17,8 @@
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "declarationDir": "build"
+    "declarationDir": "dist"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "build", "pages"]
+  "exclude": ["node_modules", "dist", "pages"]
 }

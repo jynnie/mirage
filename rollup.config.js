@@ -32,7 +32,7 @@ export default {
         "./src/styles/**/*.sass",
         "./src/styles/**/*.css",
       ],
-      output: "./build/style.css",
+      output: "./dist/style.css",
       failOnError: true,
     }),
     typescript({
