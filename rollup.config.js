@@ -1,3 +1,4 @@
+// import babel from "rollup-plugin-babel";
 import commonjs from "@rollup/plugin-commonjs";
 import postcss from "rollup-plugin-postcss";
 import resolve from "@rollup/plugin-node-resolve";
@@ -21,12 +22,11 @@ export default {
       sourcemap: true,
     },
   ],
-  // TODO: Do I need all these? I really was just fiddling to get something to work...
   plugins: [
-    peerDepsExternal(),
+    peerDepsExternal({ includeDependencies: true }),
     resolve(),
     commonjs({
-      include: "node_modules/**",
+      include: /node_modules/,
     }),
     sass({ insert: true }),
     postcss(),
