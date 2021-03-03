@@ -1,4 +1,3 @@
-import babel from "rollup-plugin-babel";
 import commonjs from "@rollup/plugin-commonjs";
 import postcss from "rollup-plugin-postcss";
 import resolve from "@rollup/plugin-node-resolve";
@@ -15,7 +14,6 @@ export default {
       file: packageJson.main,
       format: "cjs",
       sourcemap: true,
-      strict: false,
     },
     {
       file: packageJson.module,
@@ -33,9 +31,6 @@ export default {
     sass({ insert: true }),
     postcss(),
     typescript({ lib: ["es5", "es6", "dom"], target: "es5" }),
-    babel({
-      exclude: "node_modules/**",
-    }),
   ],
   external: ["react", "react-feather"],
 };
