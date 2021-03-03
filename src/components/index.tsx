@@ -1,5 +1,7 @@
 import Box from "ui-box";
 
+import "styles/index.scss";
+
 // Primitives
 export { Box };
 export * from "./primitives/Flex";
