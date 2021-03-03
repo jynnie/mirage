@@ -91,6 +91,7 @@
 
   /* Space System */
   --sp: 16px;
+  --sp-xxs: calc(var(--sp) * 0.125);
   --sp-xs: calc(var(--sp) * 0.25);
   --sp-sm: calc(var(--sp) * 0.5);
   --sp-md: calc(var(--sp) * 0.75);
@@ -121,7 +122,7 @@
   --text-size-xxl: var(--text-size-x2);
   --text-size-x3: 30px;
   --text-size-xxxl: var(--text-size-x3);
-  --text-size-x3: 36px;
+  --text-size-x4: 36px;
 }
 
 /* Semantic definitions */
@@ -136,6 +137,11 @@
   --text-color-white: var(--gray0);
   --text-color-black: var(--gray9);
 
+  --text-color-code-lighter: var(--magenta-lighter);
+  --text-color-code: var(--magenta);
+  --text-color-link: var(--blue);
+  --text-color-link-dark: var(--blue-dark);
+
   --radius-rounded: 6px;
   --radius-round: 50%;
 
@@ -143,6 +149,7 @@
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --font-header: var(--font);
   --font-caption: var(--font);
+  --font-code: monospace;
 
   --primary-lighter: var(--cobalt-lighter);
   --primary-light: var(--cobalt-light);

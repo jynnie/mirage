@@ -8,8 +8,8 @@
 
 🌶🌶 Good value add
 
-- [ ] text\*
-- [ ] link\*
+- [x] text\*
+- [x] link\*
 - [ ] dropdown/autocomplete w/ search, using react-select\*
 - [ ] tables w/ useTable
 - [ ] ellipsis support
