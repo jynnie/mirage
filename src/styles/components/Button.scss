@@ -1,6 +1,7 @@
 .jnpr-button {
   --icon-mg: var(--sp-sm);
 
+  font-family: var(--font);
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: var(--radius-rounded);
@@ -10,25 +11,25 @@
 
   //* Sizes
   &-small {
-    --icon-size: var(--text-size);
+    --icon-size: var(--font-size);
     --shape-size: var(--sp-xxl);
 
     padding: var(--sp-xs) var(--sp-md);
-    font-size: var(--text-size);
+    font-size: var(--font-size);
   }
   &-medium {
-    --icon-size: var(--text-size);
+    --icon-size: var(--font-size);
     --shape-size: var(--sp-x2p5);
 
     padding: var(--sp-sm) var(--sp-md);
-    font-size: var(--text-size);
+    font-size: var(--font-size);
   }
   &-large {
-    --icon-size: var(--text-size-lg);
+    --icon-size: var(--font-size-lg);
     --shape-size: var(--sp-xxxl);
 
     padding: var(--sp-sm) var(--sp-lg);
-    font-size: var(--text-size-lg);
+    font-size: var(--font-size-lg);
   }
 
   //* States

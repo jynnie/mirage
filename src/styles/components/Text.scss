@@ -1,5 +1,5 @@
 .jnpr-text {
-  font-size: var(--text-size-ml);
+  font-size: var(--font-size-ml);
   font-family: var(--font);
   line-height: 1.4;
 
@@ -8,7 +8,7 @@
   }
 
   &-small {
-    font-size: var(--text-size-md);
+    font-size: var(--font-size-md);
   }
 
   &-mark {
@@ -23,22 +23,22 @@
   margin-bottom: var(--sp-md);
 
   &-h1 {
-    font-size: var(--text-size-x4);
+    font-size: var(--font-size-x4);
   }
   &-h2 {
-    font-size: var(--text-size-x3);
+    font-size: var(--font-size-x3);
   }
   &-h3 {
-    font-size: var(--text-size-x2);
+    font-size: var(--font-size-x2);
   }
   &-h4 {
-    font-size: var(--text-size-xl);
+    font-size: var(--font-size-xl);
   }
   &-h5 {
-    font-size: var(--text-size-lg);
+    font-size: var(--font-size-lg);
   }
   &-h6 {
-    font-size: var(--text-size-ml);
+    font-size: var(--font-size-ml);
   }
 }
 
@@ -62,7 +62,7 @@
   --main: var(--text-color-code);
   --main-lighter: var(text-color-code-lighter);
 
-  font-size: var(--text-size-md);
+  font-size: var(--font-size-md);
   font-family: var(--font-code);
   color: var(--main);
 
@@ -75,7 +75,7 @@
 .jnpr-codeblock {
   --main-lighter: var(--gray2);
 
-  font-size: var(--text-size-md);
+  font-size: var(--font-size-md);
   font-family: var(--font-code);
   white-space: pre-wrap;
   word-wrap: break-word;

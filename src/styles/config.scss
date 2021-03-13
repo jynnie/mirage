@@ -112,17 +112,17 @@
   --sp-x40: calc(var(--sp) * 40);
   --sp-x48: calc(var(--sp) * 48);
 
-  --text-size: 14px;
-  --text-size-sm: 12px;
-  --text-size-md: var(--text-size);
-  --text-size-ml: 16px; /* Special size in between md/lg */
-  --text-size-lg: 18px;
-  --text-size-xl: 20px;
-  --text-size-x2: 24px;
-  --text-size-xxl: var(--text-size-x2);
-  --text-size-x3: 30px;
-  --text-size-xxxl: var(--text-size-x3);
-  --text-size-x4: 36px;
+  --font-size: 14px;
+  --font-size-sm: 12px;
+  --font-size-md: var(--font-size);
+  --font-size-ml: 16px; /* Special size in between md/lg */
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-x2: 24px;
+  --font-size-xxl: var(--font-size-x2);
+  --font-size-x3: 30px;
+  --font-size-xxxl: var(--font-size-x3);
+  --font-size-x4: 36px;
 }
 
 /* Semantic definitions */
